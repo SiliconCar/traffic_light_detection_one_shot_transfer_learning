@@ -4,7 +4,7 @@ However, in the subsequent submissions, we found out the `ssd_mobilenet_v1_coco`
 
 ![img](example_images/harsh_light_red.png)
 
-We tried some tricks to alleviate the hard lighting conditions, such as Gamma Correction technique and cropping. Though these approaches reduced the miss-detection and improve bounding box accuracy to a certain degree, it also could lead to overfitting or an increase in false-positives, should the lighting condition at the test site change again. 
+We tried some tricks to alleviate the hard lighting conditions, such as Gamma Correction technique and cropping. Though these approaches reduced the miss-detection and improve bounding box accuracy to a certain degree (as shown in the following figure), it also could lead to overfitting or an increase in false-positives, should the lighting condition at the test site change again. 
 
 ![img](example_images/harsh_light_red_gamma_cropping.png)
 
